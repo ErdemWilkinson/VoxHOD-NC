@@ -10,6 +10,7 @@ project and to the data sources below.
 | HERIDAL, Božić-Štulić et al., Zenodo record 5662351 | CC BY 3.0 | training, validation, test |
 | Drone footage by Ferhat Tatık (@ferhattatik_dronoloji) | Written permission for non-commercial use with credit; all rights reserved by the photographer | training and a held-out test part |
 | WiSARD sample, Broyles, Hayner, Leung | MIT wording on the dataset site | external test only |
+| Teacher labels: torchvision Faster R-CNN ResNet50-FPN v2, COCO weights | BSD-3-Clause code; weights trained on COCO (annotations CC BY 4.0) | automatic person boxes on the Ferhat Tatık frames; the teacher itself is not redistributed |
 
 The Ferhat Tatık footage is **not redistributed**. Reusing it outside this
 project requires the photographer's own permission.
