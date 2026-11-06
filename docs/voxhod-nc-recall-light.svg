@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" width="860" height="360" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <rect x="0.5" y="0.5" width="859" height="359" rx="6" fill="#fcfcfb" stroke="#e1e0d9"/>
 <rect x="20" y="15" width="12" height="12" rx="3" fill="#2a78d6"/><text x="38" y="25" font-size="12" fill="#52514e">VoxHOD v3</text>
-<rect x="113" y="15" width="12" height="12" rx="3" fill="#eb6834"/><text x="131" y="25" font-size="12" fill="#52514e">VoxHOD-NC</text>
-<text x="20" y="60" font-size="14" font-weight="600" fill="#0b0b0b">Recall: VoxHOD v3 vs VoxHOD-NC</text><text x="20" y="77" font-size="11.5" fill="#7d7b75">int8 QAT, threshold 0.2. Ferhat test = 3 held-out videos, teacher labels</text>
+<rect x="113" y="15" width="12" height="12" rx="3" fill="#eb6834"/><text x="131" y="25" font-size="12" fill="#52514e">VoxHOD-NC v2</text>
+<text x="20" y="60" font-size="14" font-weight="600" fill="#0b0b0b">Recall: VoxHOD v3 vs VoxHOD-NC v2</text><text x="20" y="77" font-size="11.5" fill="#7d7b75">int8 QAT, threshold 0.2. Ferhat test = 3 held-out videos, teacher labels</text>
 <line x1="56" x2="840" y1="300.0" y2="300.0" stroke="#c3c2b7"/><text x="48" y="304.0" font-size="11" text-anchor="end" fill="#7d7b75">0</text>
 <line x1="56" x2="840" y1="250.0" y2="250.0" stroke="#e1e0d9"/><text x="48" y="254.0" font-size="11" text-anchor="end" fill="#7d7b75">25</text>
 <line x1="56" x2="840" y1="200.0" y2="200.0" stroke="#e1e0d9"/><text x="48" y="204.0" font-size="11" text-anchor="end" fill="#7d7b75">50</text>
 <line x1="56" x2="840" y1="150.0" y2="150.0" stroke="#e1e0d9"/><text x="48" y="154.0" font-size="11" text-anchor="end" fill="#7d7b75">75</text>
 <line x1="56" x2="840" y1="100.0" y2="100.0" stroke="#e1e0d9"/><text x="48" y="104.0" font-size="11" text-anchor="end" fill="#7d7b75">100</text>
 <path d="M119.0,300 V136.2 Q119.0,132.2 123.0,132.2 H149.0 Q153.0,132.2 153.0,136.2 V300 Z" fill="#2a78d6"><title>HERIDAL · VoxHOD v3: 83.9%</title></path><text x="136.0" y="127.2" font-size="10.5" text-anchor="middle" fill="#52514e">83.9</text>
-<path d="M155.0,300 V140.0 Q155.0,136.0 159.0,136.0 H185.0 Q189.0,136.0 189.0,140.0 V300 Z" fill="#eb6834"><title>HERIDAL · VoxHOD-NC: 82.0%</title></path><text x="172.0" y="131.0" font-size="10.5" text-anchor="middle" fill="#52514e">82.0</text>
+<path d="M155.0,300 V133.6 Q155.0,129.6 159.0,129.6 H185.0 Q189.0,129.6 189.0,133.6 V300 Z" fill="#eb6834"><title>HERIDAL · VoxHOD-NC v2: 85.2%</title></path><text x="172.0" y="124.6" font-size="10.5" text-anchor="middle" fill="#52514e">85.2</text>
 <text x="154.0" y="318" font-size="11.5" text-anchor="middle" fill="#52514e">HERIDAL</text>
 <path d="M315.0,300 V181.4 Q315.0,177.4 319.0,177.4 H345.0 Q349.0,177.4 349.0,181.4 V300 Z" fill="#2a78d6"><title>WiSARD clip · VoxHOD v3: 61.3%</title></path><text x="332.0" y="172.4" font-size="10.5" text-anchor="middle" fill="#52514e">61.3</text>
-<path d="M351.0,300 V183.0 Q351.0,179.0 355.0,179.0 H381.0 Q385.0,179.0 385.0,183.0 V300 Z" fill="#eb6834"><title>WiSARD clip · VoxHOD-NC: 60.5%</title></path><text x="368.0" y="174.0" font-size="10.5" text-anchor="middle" fill="#52514e">60.5</text>
+<path d="M351.0,300 V163.0 Q351.0,159.0 355.0,159.0 H381.0 Q385.0,159.0 385.0,163.0 V300 Z" fill="#eb6834"><title>WiSARD clip · VoxHOD-NC v2: 70.5%</title></path><text x="368.0" y="154.0" font-size="10.5" text-anchor="middle" fill="#52514e">70.5</text>
 <text x="350.0" y="318" font-size="11.5" text-anchor="middle" fill="#52514e">WiSARD clip</text>
 <path d="M511.0,300 V238.2 Q511.0,234.2 515.0,234.2 H541.0 Q545.0,234.2 545.0,238.2 V300 Z" fill="#2a78d6"><title>Ferhat test 320 · VoxHOD v3: 32.9%</title></path><text x="528.0" y="229.2" font-size="10.5" text-anchor="middle" fill="#52514e">32.9</text>
-<path d="M547.0,300 V199.6 Q547.0,195.6 551.0,195.6 H577.0 Q581.0,195.6 581.0,199.6 V300 Z" fill="#eb6834"><title>Ferhat test 320 · VoxHOD-NC: 52.2%</title></path><text x="564.0" y="190.6" font-size="10.5" text-anchor="middle" fill="#52514e">52.2</text>
+<path d="M547.0,300 V179.6 Q547.0,175.6 551.0,175.6 H577.0 Q581.0,175.6 581.0,179.6 V300 Z" fill="#eb6834"><title>Ferhat test 320 · VoxHOD-NC v2: 62.2%</title></path><text x="564.0" y="170.6" font-size="10.5" text-anchor="middle" fill="#52514e">62.2</text>
 <text x="546.0" y="318" font-size="11.5" text-anchor="middle" fill="#52514e">Ferhat test 320</text>
 <path d="M707.0,300 V274.2 Q707.0,270.2 711.0,270.2 H737.0 Q741.0,270.2 741.0,274.2 V300 Z" fill="#2a78d6"><title>Ferhat test 640 · VoxHOD v3: 14.9%</title></path><text x="724.0" y="265.2" font-size="10.5" text-anchor="middle" fill="#52514e">14.9</text>
-<path d="M743.0,300 V249.4 Q743.0,245.4 747.0,245.4 H773.0 Q777.0,245.4 777.0,249.4 V300 Z" fill="#eb6834"><title>Ferhat test 640 · VoxHOD-NC: 27.3%</title></path><text x="760.0" y="240.4" font-size="10.5" text-anchor="middle" fill="#52514e">27.3</text>
+<path d="M743.0,300 V232.8 Q743.0,228.8 747.0,228.8 H773.0 Q777.0,228.8 777.0,232.8 V300 Z" fill="#eb6834"><title>Ferhat test 640 · VoxHOD-NC v2: 35.6%</title></path><text x="760.0" y="223.8" font-size="10.5" text-anchor="middle" fill="#52514e">35.6</text>
 <text x="742.0" y="318" font-size="11.5" text-anchor="middle" fill="#52514e">Ferhat test 640</text>
 </svg>
